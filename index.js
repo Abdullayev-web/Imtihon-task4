@@ -1,8 +1,8 @@
 let btn = document.querySelector('button')
 let time = document.querySelector('h1')
 btn.addEventListener('click', ()=>{
-    let vaqt = new Date()
     setInterval(()=>{
+        let vaqt = new Date()
         let soat = vaqt.getHours()
         let minut = vaqt.getMinutes()
         let sekund = vaqt.getSeconds()
